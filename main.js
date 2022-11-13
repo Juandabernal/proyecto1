@@ -4,5 +4,6 @@ window.addEventListener('keydown', function(e) {
     if(!audio) return; //para la funcion hasta que corra toda
     audio.currenTime = 0; // tiempo de activacion 
     audio.play();
-    console.log(key)
+    key.classList.add(`playing`);
+    
 });
