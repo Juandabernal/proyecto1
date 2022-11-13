@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./imagenes/descarga.jpeg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+kbd, span {
+    color: rgb(250, 250, 250);
+}
+
+.keys {
+justify-content: flex-start;
+flex-wrap: nowrap;
+align-items: stretch;
+flex-direction: row;
+align-content: stretch;
+}
