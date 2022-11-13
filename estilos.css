@@ -14,8 +14,9 @@ body {
 }
 
  span {
-    color: rgb(10, 135, 219);
+    color: rgb(118, 187, 232);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
 
 .keys {
