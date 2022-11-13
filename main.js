@@ -5,5 +5,9 @@ window.addEventListener('keydown', function(e) {
     audio.currenTime = 0; // tiempo de activacion 
     audio.play();
     key.classList.add(`playing`);
-    
 });
+
+const keys = document.querySelectorAll('.key');
+key.forEach(key => key.addEventListener('transitionend',)){
+    
+};
